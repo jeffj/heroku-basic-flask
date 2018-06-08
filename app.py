@@ -33,7 +33,6 @@ def homepage():
     <p>I predict {prediction} till the reckoning.</p>
 
 
-    <img src="http://loremflickr.com/600/400" />
     """.format(time='Whisky Time', prediction=pred[0])
 
 if __name__ == '__main__':
