@@ -26,12 +26,11 @@ predictVal = [2.0000e+01, 3.0000e+00, 8.0000e+01, 1.1622e+04, 1.0000e+00,
 def homepage():
 
 
-    pred=bst.predict(test)
+    pred=bst.predict(predictVal)
     return """
     <h1>Hello heroku</h1>
     <p>It is currently {time}.</p>
     <p>I predict {prediction} till the reckoning.</p>
-
 
 
     <img src="http://loremflickr.com/600/400" />
